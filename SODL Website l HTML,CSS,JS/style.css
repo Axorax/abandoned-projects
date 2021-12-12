@@ -1,0 +1,230 @@
+/* Universal Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    background-color: #5443FE;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #F6F6F6;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+br{
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+/* Navigation Bar PC */
+.nav{
+    margin-right: 8px;
+    margin-top: 18px;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.nav a{
+    transition: all 0.2s ease-out;
+}
+
+.nav a:hover{
+    opacity: 0.7;
+}
+
+.nav-img{
+    height: 30px;
+    float: left;
+    margin-left: 15px;
+    filter: drop-shadow(4px 4px 29px white);
+}
+
+.nav h4{
+    margin-top: 6px;
+    float: right;
+    white-space: nowrap;
+    word-spacing: 35px;
+}
+
+.nav-home{
+    color: #B4FE98;   
+}
+
+.nav-pc{
+    display: block;
+    visibility: visible;
+}
+
+.nav-mobile{
+    display: none;
+    visibility: hidden;
+}
+
+/* Home */
+.home{
+    display: flex;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.mb-0{margin-bottom: 0;}
+.mt-0{margin-top: 0;}
+
+.intro{
+    width: 40%;
+}
+
+.rocket{height: 250px;}
+
+.plans-btn-top{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #5443FE;
+    border-radius: 12px;
+    height: 45px;
+    width: 140px;
+    cursor: pointer;
+    transition: all 1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.plans-btn-top:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.discord-btn-top{
+    font-family: 'Poppins', sans-serif;
+    background-color: #5443FE;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 12px;
+    height: 45px;
+    width: 140px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 2s ease;
+}
+
+.discord-btn-top:hover{
+    background-color: white;
+    border: none;
+    color: #5443FE;
+}
+
+/* Plans */
+.mobile-plan-space{display: none;}
+.plans-section{
+    background-color: white;
+    margin-top: -10px;
+}
+
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5443FE;
+}
+
+.plan-space{width: 2%;}
+.price{font-size: 50px;margin-top: 0;font-weight: bolder;text-shadow: 1px 1px 2px #dadada;margin-bottom: 0;}
+.plan-divider{border-top: none; border-bottom: 1px solid #F4BEEE;}
+.plans-selection{background-color: #FF9A8B;background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);padding: 0 3px;border-radius: 5px;}
+.plans-contact-btn{color: white;background-color: #5443FE;cursor: pointer;font-family: 'Poppins', sans-serif;font-size: 20px;border-radius: 10px;height: 50px;width: 150px;}
+.plans-contact-btn:hover{opacity: 0.9;}
+.recommended{background-color: #EF4545;color: white;border-radius: 10px;margin-left: 20%;margin-right: 20%;margin-top: -13px;;}
+
+.plan-1{
+    width: 20rem;
+    border-radius: 15px;
+    border: 1px solid #5443FE;
+    text-align: center;
+    box-shadow: 0px 0px 5px #5443FE;
+    background-color: transparent;
+}
+
+.plan-2{
+    width: 20rem;
+    border-radius: 15px;
+    border: 1px solid #5443FE;
+    text-align: center;
+    box-shadow: 0px 0px 5px #5443FE;
+    background-color: transparent;
+}
+
+/* Divider */
+.divider{
+    border-bottom: 2px solid white;
+    text-align: center;
+    font-size: 30px;
+    overflow: hidden;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Mobile Settings */
+@media screen and (max-width:900px) {
+    .nav-mobile{
+        display: block;
+        visibility: visible;
+    }
+
+    .nav-pc{
+        display: none;
+        visibility: hidden;
+    }
+
+    .hamburger-menu{
+        background: transparent;
+        border: none;
+        margin-top: -10px;
+        float: right;
+        height: 50px;
+        width: 50px;
+    }
+
+    .hamburger-icon-closed{
+        height: 36px;
+    }
+
+    .rocket{
+        display: none;
+        visibility: hidden;
+    }
+    .home{
+        display: block;
+    }
+    .intro{
+        text-align: left;
+        width: 100%;
+        margin-left: 8px;
+    }
+}
+@media screen and (max-width:713px) {
+    .plan-space{display: none;}
+    .mobile-plan-space{display: block;}
+    .plans{
+        display: block;
+        align-items: none;
+        justify-content: none;
+    }
+    .plan-1{display: block;margin-left: auto;margin-right: auto;}
+    .plan-2{display: block;margin-left: auto;margin-right: auto;}
+}
