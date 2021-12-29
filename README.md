@@ -4,4 +4,5 @@
 <details>
   <summary>Website Projects</summary>
   <option>SODL</option>
+  <option>Hugz</option>
 </details>
