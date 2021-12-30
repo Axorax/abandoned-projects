@@ -17,6 +17,6 @@
 <br />
 <details>
   <summary>Website Projects</summary>
-  <option>SODL</option>
+  <option>SODL</option> <br />
   <option>Hugz</option>
 </details>
