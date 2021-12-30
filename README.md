@@ -1,5 +1,5 @@
-# <h1 align="center">Abandoned Projects</h1>
-<p align="center">Repository filled with all of my abandoned projects</p>
+# <h1>Abandoned Projects</h1>
+<p>Repository filled with all of my abandoned projects</p>
 
 <a href="https://www.youtube.com/channel/UChNE29WeA7wbW5VC4JVb5Ag">
   <img src="https://axorax.github.io/badges/youtube.svg">
@@ -14,6 +14,7 @@
   <img src="https://axorax.github.io/badges/github.svg">
 </a><br>
 
+<br />
 <details>
   <summary>Website Projects</summary>
   <option>SODL</option>
